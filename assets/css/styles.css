@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+main {
+    display: flex;
+}
+
+.lateral {
+    flex-direction: column;
+    width: 25%;
+}
+
+
+/* Usuario */
+.lateral .usuario {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: rgb(151, 151, 151) 2px solid;
+}
+
+.lateral .usuario .activo {
+    display: flex;
+    align-items: center;
+}
+
+.lateral .usuario .activo img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.lateral .usuario .activo ul {
+    list-style: none;
+    margin-left: 0.5rem;
+}
+
+
+/* icono Chat y hamburguesa */
+.lateral .usuario .botones {
+    display: flex;
+    font-size: 1.5rem;
+    color: rgb(105, 105, 105);
+    gap: 1rem;
+}
+
+.usuario p {
+    color: rgb(105, 105, 105);
+}
+
+
+/* boton nuevo chat */
+.nuevochat {
+    border-bottom: rgb(151, 151, 151) 2px solid;
+}
+
+.nuevochat h3 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    height: 3rem;
+    background-color: rgb(167, 114, 216);
+    font-weight: lighter;
+}
+
+
+/* Contactos */
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    /* padding: 1rem; */
+    align-items: center;
+}
+
+.contactos .activo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start ;
+    border-bottom: rgb(151, 151, 151) 2px solid;
+}
+
+.contactos .activo img {
+    width: 20%;
+    border-radius: 50%;
+    margin: 1rem 0 1rem 1rem;
+}
+
+.contactos .activo ul {
+    list-style: none;
+    margin-left: 0.5rem;
+}
+
+
+/* Pagina principal central */
+.principal {
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    height: 100vh;
+    background-color: rgb(226, 226, 233);
+    justify-content: center;
+    align-items: center;
+    border-left: rgb(151, 151, 151) 2px solid;
+}
+
+.principal img {
+    width: 20%;
+    border-radius: 5%;
+    margin-bottom: 1.5rem;
+}
+
+.principal h1 {
+    font-weight: lighter;
+    margin-bottom: 0.3rem;
+}  
+
+.principal p {
+    font-weight: light;
+    font-size: small;
+}
